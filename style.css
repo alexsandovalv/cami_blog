@@ -1,0 +1,50 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@import url('https://fonts.cdnfonts.com/css/winkle');
+
+
+body {
+    background-color: #FAF4D8;
+    color: #C1AB8F;
+    font-family: "winkle", "Verdana", serif;
+    font-size: 28px !important;
+
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    /*background: url(https://i.imgur.com/T4EZGMY.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'winkle';
+    color: #af8f8b;
+    font-size: 18;
+    cursor: url(https://i.imgur.com/z3sSbOv.png), progress;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #C1AB8F;
+}
+
+li a:hover {
+    /*background-color: #bd936d; */
+    font-size: 32px;
+}
